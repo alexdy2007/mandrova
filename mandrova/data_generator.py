@@ -21,11 +21,11 @@ import matplotlib.pyplot as plt
 from scipy import linalg, stats
 from sklearn.preprocessing import Normalizer, StandardScaler
 
-from .generator.utils import Input
-from .generator.stationary import Stationary as st
-from .generator.attractor import Attractor as at
-from .generator.custom_equation import CustomEquation as ce
-from .generator.custom_attractor import CustomAttractor as cat
+from mandrova.generator.utils import Input
+from mandrova.generator.stationary import Stationary as st
+from mandrova.generator.attractor import Attractor as at
+from mandrova.generator.custom_equation import CustomEquation as ce
+from mandrova.generator.custom_attractor import CustomAttractor as cat
 ##[import_new_generator]
 ##from generator.future_generator import FutureGen as fg
 
